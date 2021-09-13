@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- <button class="changeColorBtn">Change color</button> -->
+    <div class="table">
+      <div class="lines field"></div>
+      <div class="col">
+        <button class="btn-active">HIDE</button>
+        <div class="container">
+          <span class="btn-names trigger">NAMES</span>
+          <div class="name field"></div>
+        </div>
+      </div>
+      <div class="col">
+        <button class="btn-active">HIDE</button>
+        <div class="container">
+          <span class="btn-lastNames trigger">LASTNAMES</span>
+          <div class="lastName field"></div>
+        </div>
+      </div>
+      <div class="col">
+        <button class="btn-active">HIDE</button>
+        <div class="container">
+          <span class="btn-about trigger">ABOUT</span>
+          <div class="about field"></div>
+        </div>
+      </div>
+      <div class="col">
+        <button class="btn-active">HIDE</button>
+        <div class="container">
+          <span class="btn-eyeColor trigger">EYE_COLOR</span>
+          <div class="eyeColor field"></div>
+        </div>
+      </div>
+      <div class="btns"></div>
+    </div>
+    <div class="modal">
+      <div class="modal-inner">
+        <div data-close class="modal-close">&times;</div>
+        <input placeholder="Change name" name="name" type="text" class="modal-name modal-win">
+        <input placeholder="Change lastname" name="surname" type="text" class="modal-lastname modal-win">
+        <input placeholder="Change about" name="about" type="text" class="modal-about modal-win">
+        <input placeholder="Change eye color" name="eyeColor" type="text" class="modal-eyeColor modal-win">
+        <button class="modal-btn">Edit</button>
+      </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
